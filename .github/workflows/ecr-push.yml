@@ -25,7 +25,7 @@ jobs:
 
       - name: Build, tag, and push image
         env:
-          ECR_REPOSITORY: yourname-flask-private-repository
+          ECR_REPOSITORY: alfatah-flask-private-repository
           IMAGE_TAG: ${{ github.sha }}
         run: |
           # Build image
